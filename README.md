@@ -1,8 +1,3 @@
 # Assignment
-This is a Portfolio Site and Registration site made with pure HTML and CSS
+This is a CSS Grid and Flexbox practise
 
-Links:
-
-https://Registration.aexande.repl.co
-
-https://Portfolio.aexande.repl.co
