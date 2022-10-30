@@ -1,0 +1,417 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5rem;
+}
+
+.flexbox .sedan {
+    min-height: 400px;
+    max-width: 300px;
+    padding: 40px;
+    /*position: relative;*/
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedan-icon {
+    padding: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    ;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+    line-height: 175%;
+    padding: 10px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    width: 100%;
+}
+
+.sedan-button {
+    color: hsl(31, 77%, 52%)
+}
+
+.sedan-button:hover {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    ;
+    color: hsl(0, 0%, 95%);
+}
+
+.flexbox .suv {
+    min-height: 400px;
+    max-width: 300px;
+    padding: 40px;
+    /*position: relative;*/
+}
+
+.suv-icon {
+    padding: 20px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 100%;
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suv-button:hover {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    ;
+    color: hsl(0, 0%, 95%);
+}
+
+.flexbox .luxury {
+    min-height: 400px;
+    max-width: 300px;
+    padding: 40px;
+    /* position: relative;*/
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury-icon {
+    padding: 20px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    width: 100%;
+}
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.grids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: darkcyan;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.grids:hover {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+a:hover,
+.grids:hover {
+    color: darkcyan;
+}
+
+/*Mobile Device*/
+@media (max-width:375px) {
+    * {
+        box-sizing: content-box;
+    }
+
+    .flexbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .flexbox .sedan {
+        min-height: 400px;
+        max-width: 300px;
+        padding: 40px;
+        /*position: relative;*/
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .sedan-icon {
+        padding: 20px;
+    }
+
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsl(0, 0%, 95%);
+        line-height: 175%;
+        padding: 10px;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px;
+        padding-top: 15px;
+        border-radius: 30px;
+        border: none;
+        margin-top: 30px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .sedan {
+        background-color: hsl(31, 77%, 52%);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .sedan-button {
+        color: hsl(31, 77%, 52%)
+    }
+
+    .sedan-button:hover {
+        background-color: transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        ;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .flexbox .suv {
+        min-height: 400px;
+        max-width: 300px;
+        padding: 40px;
+        /*position: relative;*/
+    }
+
+    .suv-icon {
+        padding: 20px;
+    }
+
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .suv-button {
+        color: hsl(184, 100%, 22%);
+    }
+
+    .suv-button:hover {
+        background-color: transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        ;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .flexbox .luxury {
+        min-height: 400px;
+        max-width: 300px;
+        padding: 40px;
+        /* position: relative;*/
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .luxury-icon {
+        padding: 20px;
+    }
+
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .luxury-button {
+        color: hsl(179, 100%, 13%);
+    }
+
+    .luxury-button:hover {
+        background-color: transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        ;
+        color: hsl(0, 0%, 95%);
+    }
+}
+
+/*Tablet Screen*/
+@media (max-width:880px) {
+    * {
+        box-sizing: content-box;
+    }
+
+    .flexbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .flexbox .sedan {
+        min-height: 300px;
+        max-width: 300px;
+        padding: 40px;
+        /*position: relative;*/
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .sedan-icon {
+        padding: 20px;
+    }
+
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsl(0, 0%, 95%);
+        line-height: 175%;
+        padding: 10px;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px;
+        padding-top: 15px;
+        border-radius: 30px;
+        border: none;
+        margin-top: 30px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .sedan {
+        background-color: hsl(31, 77%, 52%);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .sedan-button {
+        color: hsl(31, 77%, 52%)
+    }
+
+    .sedan-button:hover {
+        background-color: transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        ;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .flexbox .suv {
+        min-height: 300px;
+        max-width: 300px;
+        padding: 40px;
+        /*position: relative;*/
+    }
+
+    .suv-icon {
+        padding: 20px;
+    }
+
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .suv-button {
+        color: hsl(184, 100%, 22%);
+    }
+
+    .suv-button:hover {
+        background-color: transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        ;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .flexbox .luxury {
+        min-height: 300px;
+        max-width: 300px;
+        padding: 40px;
+        /* position: relative;*/
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .luxury-icon {
+        padding: 20px;
+    }
+
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .luxury-button {
+        color: hsl(179, 100%, 13%);
+    }
+
+    .luxury-button:hover {
+        background-color: transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        ;
+        color: hsl(0, 0%, 95%);
+    }
+
+
+}
